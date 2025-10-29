@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{school_name}}</title>
+</head>
+<body>
+    {% for stu in students %}
+    <h1>ID: {{stu.stu_id}}</h1>
+    <h1>Name: {{stu.name}}</h1>
+    <h1>Email: {{stu.email}}</h1>
+    <h1>PassWord: {{stu.pw}}</h1>
+    {% endfor %}
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
